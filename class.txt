@@ -8,3 +8,19 @@ push something to it
 switch to main branch - git switch branch-name
 push something to it
 
+
+While raising the PR 
+main  - base
+your branch - from where you want to merge the code
+^ base branch need not always be main;
+ 
+
+main - actual main branch, deployed on production
+demo - demo branch, deployed on demo environment - where the testing happens
+
+PR from dev_1_branch to demo
+PR from dev_2_branch to demo
+PR from dev_3_branch to demo
+
+once testing is done on demo
+PR from demo branch to main
