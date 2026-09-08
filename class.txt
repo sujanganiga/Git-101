@@ -2,3 +2,11 @@ Github Basics
 
 
 main branch - one default branch;
+push something to main branch;
+
+create one new branch - git checkout -b "branch name"
+push something to it
+
+switch to main branch - git switch branch-name
+push something to it
+
